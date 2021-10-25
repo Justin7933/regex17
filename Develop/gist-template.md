@@ -38,7 +38,7 @@ The grouping in the expression can be seen by the parentheses inside the regex.
 ### Character Classes
 
 ### The OR Operator
-
+There was not any OR operators in this regex.
 ### Flags
 
 ### Character Escapes
