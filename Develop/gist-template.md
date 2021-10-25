@@ -36,6 +36,8 @@ The grouping in the expression can be seen by the parentheses inside the regex.
 ### Bracket Expressions
 
 ### Character Classes
+Character classes distinguish different types of characters for example, letters and numbers.
+1. In this regex the `@` and `.` are two characters the regex must distinguish before validating the email.
 
 ### The OR Operator
 There was not any OR operators in this regex.
