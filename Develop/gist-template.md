@@ -20,7 +20,9 @@ The expression for validating email addresses is `/^([a-z0-9_\.-]+)@([\da-z\.-]+
 ## Regex Components
 
 ### Anchors
-
+Anchors are the begining and the end of expression.
+1. ^
+2. $
 ### Quantifiers
 
 ### Grouping Constructs
