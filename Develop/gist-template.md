@@ -43,7 +43,7 @@ Character classes distinguish different types of characters for example, letters
 1. In this regex the `@` and `.` are two characters the regex must distinguish before validating the email.
 
 ### The OR Operator
-There was not any OR operators in this regex.
+An OR operator allows the regex to do either one or the other request in the expression. In this regex you can see `([a-z0-9_\.-`. The regex is finding any lowercase letter from a-z OR any number from 0-9.
 ### Flags
 
 ### Character Escapes
