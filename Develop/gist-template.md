@@ -34,7 +34,10 @@ The grouping in the expression can be seen by the parentheses inside the regex.
 2.Domain: `@([\da-z\.-]+)\`
 3. TLD: `.([a-z\.]{2,6})$/`
 ### Bracket Expressions
-
+Anything with `[]` around it is considered a bracket expression. In this regex there is three.
+1. `/^([a-z0-9_\.-]+)` this is to find any lowercase letter from a-z and any number from 0-9
+2. `([\da-z\.-]+)\` this is to find any lowercase letter from a-z and the /d puts a number to each of those letters
+3. `([a-z\.]{2,6})$/` this is to find any lowercase letter from a-z and also is looking for a period(.)
 ### Character Classes
 Character classes distinguish different types of characters for example, letters and numbers.
 1. In this regex the `@` and `.` are two characters the regex must distinguish before validating the email.
