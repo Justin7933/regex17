@@ -1,10 +1,10 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+Regex is a short word for regular expression and it is used to detect diffrent patterns within a string. A good example of a regualr expression is validating an email address. This allows you to have a much cleaner database because, if you did not validate the email addresses people are using. It could become an issue due to the fact people could make random email addresses that have never been registered. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The expression for validating email addresses is `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`. Using this in your sites could come in handy almost everytime.
 
 ## Table of Contents
 
