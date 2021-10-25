@@ -29,7 +29,10 @@ Quantifiers help to see how many instances must be shown for a match to be found
 2. `{2,6}` is to only find matches that are more than 2 characters and less than 6 characters.
 
 ### Grouping Constructs
-
+The grouping in the expression can be seen by the parentheses inside the regex.
+1.Email: `/^([a-z0-9_\.-]+)`
+2.Domain: `@([\da-z\.-]+)\`
+3. TLD: `.([a-z\.]{2,6})$/`
 ### Bracket Expressions
 
 ### Character Classes
