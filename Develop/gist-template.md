@@ -20,10 +20,13 @@ The expression for validating email addresses is `/^([a-z0-9_\.-]+)@([\da-z\.-]+
 ## Regex Components
 
 ### Anchors
-Anchors are the begining and the end of expression.
+Anchors are the begining and the end of the expression.
 1. ^
 2. $
 ### Quantifiers
+Quantifiers help to see how many instances must be shown for a match to be found.
+1. the plus in the email expression viewed here `([\da-z\.-]+)\` allows the component to be broken up into the name, domain and TLD. Example: justin@gmail.com
+2. `{2,6}` is to only find matches that are more than 2 characters and less than 6 characters.
 
 ### Grouping Constructs
 
