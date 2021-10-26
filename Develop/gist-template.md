@@ -47,7 +47,7 @@ An OR operator allows the regex to do either one or the other request in the exp
 ### Flags
 There are no flags in this regex. A flag though is used after the second `/` in the regex. An example is `i` and it is used to ignore any case sensitive searches.
 ### Character Escapes
-The backslash `\` is used before `{` in order for the regx to know to search for the information inside the brackets and not the start of the quantifier itself.
+The backslash `\` is used before `{` in order for the regx to know to search for the information inside the brackets and not the start of the quantifier itself. But once it is inside a bracket it no longer is used for that purpose. As you can see in the email validation the backslash is inside of brackets `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`.
 ## Author
 <a href="https://github.com/Justin7933" target="_blank">Github Profile</a>
 
