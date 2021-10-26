@@ -45,7 +45,7 @@ Character classes distinguish different types of characters for example, letters
 ### The OR Operator
 An OR operator allows the regex to do either one or the other request in the expression. In this regex you can see `([a-z0-9_\.-`. The regex is finding any lowercase letter from a-z OR any number from 0-9.
 ### Flags
-There are no flags in this regex. A flag though is used after the second `/` in the regex. An example is `i` and it used to ignore any case sensitive searches.
+There are no flags in this regex. A flag though is used after the second `/` in the regex. An example is `i` and it is used to ignore any case sensitive searches.
 ### Character Escapes
 
 ## Author
